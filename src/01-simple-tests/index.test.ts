@@ -13,7 +13,7 @@ describe('simpleCalculator tests', () => {
     const inputValue = {
       a: 10,
       b: 3,
-      action: Action.Substract,
+      action: Action.Subtract,
     };
     const expectedResult = 7;
     const actualResult = simpleCalculator(inputValue);
